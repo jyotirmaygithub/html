@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <div>
+        <ul>
+            <li> HOME</li>
+            <LI>ABOUT US</LI> 
+            <LI>CONTACT US</LI>
+        </ul>
+    </div>
+    <DIV>
+        <h1>Travel form to Europe</h1>
+        <h2>if you already have id and password so login</h2>
+        <label for="login"> Login id
+            <input type="text" name="login id" id="login"><br><br>
+        </label>
+        <label for="password"> Password
+            <input type="password" name="password" id="password"><br><br>
+        </label>
+    </DIV>
+    <br>
+    <div><br><br>
+        <form action="europe.php"></form>
+        <h2>If you are a new user to fill these details firstly</h2>
+    <label for="name">NAME
+        <input type="text" name="name" id="name"><br><br>
+    </label>
+    <label for="email">Email Id
+        <input type="text" name="email id" id="email"><br><br>
+    </label>
+    <label for="number"> Phone Number
+        <input type="number" name="phone number" id="number"><br><br>
+    </label>
+    <label for="DOB"> Date of Birth
+        <input type="date" name="date of birth" id="DOB"><br><br>
+    </label>
+    <label for="range"> Expenditure Range
+        <input type="range" name="income range" id="range" min="30k" max="1c"><br><br>
+    </label>
+    <div>
+        <h3>Which Country Do You Want To Prefare</h3>
+        <label for="france">  FRANCE
+            <input type="radio" name="travel" id="france"><br>
+        </label>
+        <label for="germany">GERMANY
+            <input type="radio" name="travel" id="germany"><br>
+        </label>
+        <label for="united">UNITED KINGDOM
+            <input type="radio" name="travel" id="united"><br>
+        </label>
+        <label for="italy">ITALY
+            <input type="radio" name="travel" id="italy"><br>
+        </label>
+        <label for="holland">HOLLAND
+            <input type="radio" name="travel" id="holland"><br>
+        </label>
+        <label for="spain">SPAIN
+            <input type="radio" name="travel" id="spain"><br>
+        </label>
+        <div>
+            <h3>what should be the langauge of tour guide</h3>
+            <label for="eng"> ENGLISH
+                <input type="checkbox" name="language" id="eng"><br>
+            </label>
+            <label for="hin"> HINDI
+                <input type="checkbox" name="language" id="hin"><br>
+            </label>
+            <label for="otherlanguage"> 
+                <input type="text" name=" anylanguage" id="otherlanguage" placeholder="any other language"><br>
+            </label>
+         </div>
+         <div>
+            <br>
+            <label for="placesvisit"> <b> which places want to visit </b>
+           <select name="which places want to visit" id="placesvisit">
+            <option value="slect places">slect places</option>
+            <option value="historical buildings">historical buildings</option>
+            <option value="beach">beach</option>
+            <option value="art gallery">art gallery</option>
+            <option value="buying clothes"> buying clothes</option>
+        </label>
+           </select>
+         </div>
+         <div>
+            <br>
+            <textarea name="what kind vacation you want" id="vacation" cols="50" rows="10" placeholder="what kind vacation you want"></textarea> 
+         </div>
+         <div>
+            <input type="submit" value="submit now">
+            <input type="reset" value="reset now">
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    </div>
+</body>
+</html>
